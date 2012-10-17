@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Grape::Cors::VERSION
   gem.authors       = ["Ash Berlin"]
   gem.email         = ["ash_github@firemirror.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Adds (simple) support for Cross Origin requests to [grape]}
+  gem.summary       = %q{Adds (simple) support for Cross Origin requests to [grape]}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
