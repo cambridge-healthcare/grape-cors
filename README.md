@@ -5,7 +5,8 @@ useful if you want to host a [Swagger UI explorer](swagger-ui) on a different
 domain.
 
 Right now this module only supports a single host (or the '*' wildcard) and GET
-requests only. PUT/POST support has yet to be added
+requests only. PUT/POST support works for Safari and Chrome. The list of allowed
+headers is hardcoded to be `origin, content-type, accept` at the moment
 
 ## Installation
 
